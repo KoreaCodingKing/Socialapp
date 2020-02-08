@@ -38,6 +38,5 @@
     ]
   },
   "proxy": "https://us-central1-socialapp-ee961.cloudfunctions.net/api",
-  "homepage": "https://KoreaCodingKing.github.io/CloneCoding-socialapp",
-  "deploy": "npm run build&&gh-pages -d build"
+  "homepage": "https://KoreaCodingKing.github.io/Socialapp"
 }
