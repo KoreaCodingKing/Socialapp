@@ -49,11 +49,11 @@ class App extends Component {
               <Navbar />
               <div className="container">
                 <Switch>
-                  <Route exact path="/" component={home}/>
-                  <AuthRoute exact path="/login" component={login} />
-                  <AuthRoute exact path="/signup" component={signup} />
-                  <Route exact path="/users/:handle" component={user} />
-                  <Route exact path="/users/:handle/scream/:screamId" component={user}/>
+                  <Route exact path="/Socialapp" component={home}/>
+                  <AuthRoute exact path="/Socialapp/login" component={login} />
+                  <AuthRoute exact path="/Socialapp/signup" component={signup} />
+                  <Route exact path="/Socialapp/users/:handle" component={user} />
+                  <Route exact path="/Socialapp/users/:handle/scream/:screamId" component={user}/>
                 </Switch>
               </div>
             </Router>
